@@ -51,24 +51,6 @@ long long longMod(long long a, long long b){
 }
 
 
-/*
-long long buscaInverso(long long c, long long N){
-	
-	int r1 = N, r2 = c, aux;
-	
-	while(r2 != 1){
-		
-		aux = r2;
-		r2 = r1 % r2;
-		ri = aux;
-		
-	}
-	
-	return 
-	
-} 
-*/
-
 long long encriptar(long long m, long long c, long long N){
 	long long i, res = m, q;
 	for(i=2; i<=c; i++){
@@ -81,11 +63,6 @@ long long encriptar(long long m, long long c, long long N){
 
 
 long long desencriptar(long long k, long long d, long long f){
-	
-	/*long long aux, q, r;
-	q = k / f;
-	r = k - 
-	*/
 	
 	long long res = k, i, q;
 	for(i=2; i<=d; i++){
